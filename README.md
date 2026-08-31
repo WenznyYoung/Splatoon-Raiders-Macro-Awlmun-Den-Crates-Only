@@ -41,7 +41,7 @@ https://github.com/Deathm0b/splatoon-raiders-macro
 
 Then replace the existing **code.py** on the CIRCUITPY drive with the code.py provided here.
 
-Important
+## Important
 
 This is a fixed-input macro.
 
@@ -49,7 +49,7 @@ The provided timings are simply the values that work reliably with my setup.
 
 If the route does not line up correctly on your setup, adjust the timing values in code.py.
 
-Credits
+## Credits
 
 Controller HID implementation and original RP2040 Splatoon Raiders macro:
 
@@ -57,7 +57,7 @@ https://github.com/Deathm0b/splatoon-raiders-macro
 
 Thanks to Deathm0b for providing the original project and documentation that made this possible.
 
-喷射战士 涂击队 - 杏棱巢穴 开箱刷武器宏
+## 喷射战士 涂击队 - 杏棱巢穴 开箱刷武器宏
 
 本仓库提供一份已经实机跑通的 code.py，用于通过 RP2040 + CircuitPython 自动刷**杏棱巢穴的箱子武器掉落**。
 
@@ -75,7 +75,7 @@ Switch 手柄 HID 配置
 
 本仓库只提供杏棱巢穴刷武器用的 code.py。
 
-脚本流程
+## 脚本流程
 
 脚本会循环执行：
 
@@ -88,7 +88,7 @@ Switch 手柄 HID 配置
 
 目标是单纯高速刷武器
 
-已测试环境
+## 已测试环境
 
 目前已经在以下环境实机跑通：
 
@@ -96,7 +96,7 @@ Nintendo Switch 2
 RP2040-Zero
 CircuitPython
 
-使用方法
+## 使用方法
 
 首先按照原项目完成所有前置配置：
 
@@ -104,7 +104,7 @@ https://github.com/Deathm0b/splatoon-raiders-macro
 
 然后将 CIRCUITPY 中原有的 code.py 替换成本仓库提供的 code.py
 
-注意事项
+## 注意事项
 
 这是一个完全依赖固定输入时序的宏。
 
@@ -112,7 +112,7 @@ https://github.com/Deathm0b/splatoon-raiders-macro
 
 如果你的角色无法正确到达箱子位置、瞄准偏移或操作错轴，请自行调整 code.py 中对应的时间参数。
 
-致谢
+## 致谢
 
 RP2040 Switch HID 实现以及最初的 Splatoon Raiders 自动挂机项目来自：
 
